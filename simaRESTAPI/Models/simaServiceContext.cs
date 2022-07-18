@@ -6,10 +6,7 @@ namespace simaRESTAPI.Models
 {
     public partial class simaServiceContext : DbContext
     {
-        public simaServiceContext()
-        {
-        }
-
+        
         public simaServiceContext(DbContextOptions<simaServiceContext> options)
             : base(options)
         {
@@ -19,14 +16,6 @@ namespace simaRESTAPI.Models
         public virtual DbSet<Remisiones> Remisiones { get; set; }
         public virtual DbSet<Usuarios> Usuarios { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            if (!optionsBuilder.IsConfigured)
-            {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-                optionsBuilder.UseSqlServer("Server=DESKTOP-F3VTPFL;Database=simaService;Integrated Security=True");
-            }
-        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
