@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dan\\source\\repos\\simaRESTAPI\\simaRESTAPI\\simaRESTAPI.csproj": {}
+    "C:\\Users\\Administrador\\source\\repos\\simaRESTAPI\\simaRESTAPI\\simaRESTAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dan\\source\\repos\\simaRESTAPI\\simaRESTAPI\\simaRESTAPI.csproj": {
+    "C:\\Users\\Administrador\\source\\repos\\simaRESTAPI\\simaRESTAPI\\simaRESTAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dan\\source\\repos\\simaRESTAPI\\simaRESTAPI\\simaRESTAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Administrador\\source\\repos\\simaRESTAPI\\simaRESTAPI\\simaRESTAPI.csproj",
         "projectName": "simaRESTAPI",
-        "projectPath": "C:\\Users\\Dan\\source\\repos\\simaRESTAPI\\simaRESTAPI\\simaRESTAPI.csproj",
-        "packagesPath": "C:\\Users\\Dan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dan\\source\\repos\\simaRESTAPI\\simaRESTAPI\\obj\\",
+        "projectPath": "C:\\Users\\Administrador\\source\\repos\\simaRESTAPI\\simaRESTAPI\\simaRESTAPI.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\source\\repos\\simaRESTAPI\\simaRESTAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -56,6 +57,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.25, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.15.1, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
