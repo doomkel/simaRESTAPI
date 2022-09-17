@@ -4,6 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UserSecretsId>1ea30fad-b08c-4998-bcb9-85a4527e3c3d</UserSecretsId>
     <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+
+        
   </PropertyGroup>
 
   <ItemGroup>

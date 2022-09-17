@@ -1,0 +1,17 @@
+﻿#docker run --rm -it -p 8000:80 -p 8001:443 -e ASPNETCORE_URLS="https://+;http://+" -e ASPNETCORE_HTTPS_PORT=8001 -e ASPNETCORE_Kestrel__Certificates__Default__Password="Nerak_101" -e ASPNETCORE_Kestrel__Certificates__Default__Path=\https\simaRESTAPI.pfx -v $env:USERPROFILE\.aspnet\https:C:\https\ simarestapi
+version: '3'
+services:
+  simarestapi:
+    build: .
+    ports:
+    - "8000:80"
+    - "8001:443"
+    environment:
+        ASPNETCORE_URLS: "https://+;http://+"
+        ASPNETCORE_HTTPS_PORT: "8001"
+        ASPNETCORE_Kestrel__Certificates__Default__Password: "Nerak_101"
+        ASPNETCORE_Kestrel__Certificates__Default__Path: "\\https\\simaRESTAPI.pfx"
+        DOTNET_ENVIRONMENT: "Development"
+    volumes:
+        - ${USERPROFILE}\.aspnet\https:C:\https\
+        - ${APPDATA}\Microsoft\UserSecrets:C:\Users\ContainerUser\AppData\Roaming\Microsoft\UserSecrets:ro\
