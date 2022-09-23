@@ -48,6 +48,16 @@ namespace simaRESTAPI
                 };
 
             });
+
+            services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+                {
+                    Title = "Sima Rest API",
+                    Description = "Sima API",
+                    Version = "v1"                    
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -70,6 +80,14 @@ namespace simaRESTAPI
             {
                 endpoints.MapControllers();
             });
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(options =>
+            {
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Sima API");
+            } );
+            
         }
     }
 }

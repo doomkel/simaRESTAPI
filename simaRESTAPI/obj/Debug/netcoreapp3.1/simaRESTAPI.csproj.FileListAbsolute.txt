@@ -264,3 +264,8 @@ C:\Users\Administrador\source\repos\simaRESTAPI\simaRESTAPI\obj\Debug\netcoreapp
 C:\Users\Administrador\source\repos\simaRESTAPI\simaRESTAPI\obj\Debug\netcoreapp3.1\simaRESTAPI.dll
 C:\Users\Administrador\source\repos\simaRESTAPI\simaRESTAPI\obj\Debug\netcoreapp3.1\simaRESTAPI.pdb
 C:\Users\Administrador\source\repos\simaRESTAPI\simaRESTAPI\obj\Debug\netcoreapp3.1\simaRESTAPI.genruntimeconfig.cache
+C:\Users\Dan\source\repos\simaRESTAPI\simaRESTAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Dan\source\repos\simaRESTAPI\simaRESTAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Dan\source\repos\simaRESTAPI\simaRESTAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Dan\source\repos\simaRESTAPI\simaRESTAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Dan\source\repos\simaRESTAPI\simaRESTAPI\obj\Debug\netcoreapp3.1\simaRESTAPI.MvcApplicationPartsAssemblyInfo.cs
