@@ -38,6 +38,7 @@ namespace simaRESTAPI.Controllers
                         new Claim(JwtRegisteredClaimNames.Sub, _configuration["Jwt:Subject"]),
                         new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
                         new Claim(JwtRegisteredClaimNames.Iat, DateTime.UtcNow.ToString()),
+                        new Claim(JwtRegisteredClaimNames.Exp, DateTime.UtcNow.AddDays(15).ToString()),
                         new Claim("Cod_usuario", user.CodUsuario.ToString()),
                         new Claim("Usuario", user.Usuario.ToString()),
                         new Claim("Perfil", user.Perfil.ToString())
